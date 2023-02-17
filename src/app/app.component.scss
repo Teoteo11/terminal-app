@@ -1,0 +1,27 @@
+.outer-box {
+  max-width: 800px;
+  margin: auto;
+  min-height: 40vh;
+  margin-top: 56px;
+}
+
+.custom-label-tab {
+  color: #000;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.custom-width {
+  width: 100%;
+}
+
+.spacing {
+  margin-top: 96px;
+}
+
+::ng-deep .mat-mdc-tab, .mat-mdc-tab-link {
+  &:hover {
+    background-color: #a80505;
+    cursor: pointer;
+  }
+}
