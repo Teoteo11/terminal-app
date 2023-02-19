@@ -8,6 +8,7 @@ import { FormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
 import { MatTabsModule } from '@angular/material/tabs';
 import { NgTerminalModule } from 'ng-terminal';
+import { CodemirrorModule } from '@ctrl/ngx-codemirror';
 @NgModule({
   declarations: [
     AppComponent
@@ -19,7 +20,8 @@ import { NgTerminalModule } from 'ng-terminal';
     MatInputModule,
     MatTabsModule,
     NgTerminalModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    CodemirrorModule
   ],
   providers: [],
   bootstrap: [AppComponent]

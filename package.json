@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "deploy": "ng build -c production  --base-href 'https://Teoteo11.github.io/terminal-app/' && ngh --dir dist/demo-terminal-app",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
@@ -20,6 +21,8 @@
     "@angular/platform-browser": "^15.0.0",
     "@angular/platform-browser-dynamic": "^15.0.0",
     "@angular/router": "^15.0.0",
+    "@ctrl/ngx-codemirror": "^6.1.0",
+    "codemirror": "^5.65.11",
     "ng-terminal": "^5.4.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",

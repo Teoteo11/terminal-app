@@ -19,3 +19,12 @@
   </mat-tab-group>
   <h2 *ngIf="isSubmitted()">Grazie per aver mandato la tua risposta: {{ containerChar.join('')}}</h2>
 </div>
+<hr>
+<h2 class="text-center">Test Code Emitter</h2>
+<div class="box-code">
+  <ngx-codemirror [(ngModel)]="content" [options]="{
+      lineNumbers: true,
+      theme: 'dracula',
+      mode: 'javascript'
+    }"></ngx-codemirror>
+</div>

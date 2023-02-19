@@ -26,6 +26,8 @@ export class AppComponent {
     background: '#1C4F87',
   };
 
+  content = ' Benvenuto nel terminale Paradigma! \n\n Risolvi il seguente quesito: \n Scrivi una funzione che dati due numeri \n ne torna la somma';
+
   ngAfterViewInit() {
     this.underlying = this.child.underlying;
     this.underlying.options.fontSize = 16;
